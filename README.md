@@ -18,7 +18,7 @@ print(i3) # 8
 print(i1 + i2 + i3) # 16
 
 s1, s2, s3 = "Python", " is ", 'awesome'
-print(s1 + s2 + s3) # Pythonisawesome
+print(s1 + s2 + s3) # Python is awesome
 
 x = y = z = "Naranja"
 print("valor de x: " + x + ", valor de y: " + y + ", valor de z: " + z) # valor de x: Naranja, valor de y: Naranja, valor de z: Naranja
@@ -35,9 +35,9 @@ print("entero i3:") # entero i3:
 print(i3) # 9
 print("variable f3:") # variable f3:
 print(f3) # 9.5
-f2 += i1 # 13
+f2 += i1 
 print("el valor de") # el valor de
-print(f2) # 10
+print(f2) # 13
 print("más") # más
 print(f1) # -0.5
 print("es:") # es:
